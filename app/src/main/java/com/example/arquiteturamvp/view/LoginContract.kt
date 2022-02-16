@@ -1,6 +1,6 @@
 package com.example.arquiteturamvp.view
 
-interface ILoginView {
+interface LoginContract {
     fun onLoginSuccess(message: String)
     fun onLoginError(message: String)
 }

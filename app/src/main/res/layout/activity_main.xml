@@ -42,6 +42,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="E-mail"
+            android:inputType="textEmailAddress"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             tools:ignore="TouchTargetSizeCheck" />
@@ -51,6 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Senha"
+            android:inputType="textPassword"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             tools:ignore="TouchTargetSizeCheck" />
